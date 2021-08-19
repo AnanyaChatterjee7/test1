@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Select;
 import com.project.application.model.User;
 
 @Mapper
-public interface UserMaper {
+public interface UserMpe {
 
 	@Insert("insert into users(id,name) values(#{userId},#{name})")
 	public int insertUser(User user);
